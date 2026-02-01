@@ -117,5 +117,32 @@
         </div>
     </div>
 
+    <script src="js/aos.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/splide.min.js"></script>
+        <script src="js/splide.min.js"></script>
+        <script src="js/fancybox.umd.js"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var splide = new Splide(".splide", {
+                    type: "loop",
+                    autoplay: 1,
+                    arrows: 0,
+                    interval: 1e3,
+                    pauseOnHover: 0,
+                    perMove: 1,
+                    perPage: 1,
+                    gap: "1.5rem",
+                });
+                splide.mount();
+            });
+        </script>
+        <script>
+            Fancybox.bind("[data-fancybox]", {
+                'animated': true,
+            });
+        </script>
+
 </body>
 </html>
