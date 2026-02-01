@@ -21,7 +21,7 @@
     
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: inherit;
 }
 .bg-image-intre0 {
     background-image: url("../img/contact-bg.jpg");
