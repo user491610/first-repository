@@ -9,15 +9,16 @@
 }
 .food-img{
     width: 100%;
-    height: 230px;
+    height: 259px;
     object-fit: cover;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 .food-img2{
     width: 100%;
-    height: 360px;
+    height: 400px;
     object-fit: cover;
-    border-radius: 4px;
+    border-radius: 3px;
+    
 }
 body{
     font-family: Arial, Helvetica, sans-serif;

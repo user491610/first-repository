@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My first project</title>
+    <link rel="shortcut icon" href="img/imgi_14_jpxmuf6EIf18bxkJ1Fwl5CTCHlSsJJzDgGT6UXCrNRu3MUR1S04wx1tEybs9.png" type="image/x-icon">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fancybox.css">
@@ -20,8 +21,8 @@
                 ex <br>
                 provident </div>
         </div>
-        <div class="row py-5">
-            <div class="col-lg-4 ">
+        <div class="row py-5" data-aos="fade-down" data-aos-duration="900">
+            <div class="col-lg-4 " data-aos="fade-right" data-aos-duration="900">
                 <div class="container-xl position-relative" style="background-color: #E9F7F8;">
                     <div
                         class="position-absolute position-absolute top-0 start-50 translate-middle rounded-circle bg-white p-3">
@@ -34,7 +35,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-4 mt-lg-0 mt-5">
+            <div class="col-lg-4 mt-lg-0 mt-5" data-aos="fade-up" data-aos-duration="900">
                 <div class="container-xl position-relative" style="background-color: #EDF8EA;">
                     <div
                         class="position-absolute position-absolute top-0 start-50 translate-middle rounded-circle bg-white  p-3">
@@ -47,7 +48,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-4 mt-lg-0 mt-5">
+            <div class="col-lg-4 mt-lg-0 mt-5" data-aos="fade-left" data-aos-duration="900">
                 <div class="container-xl position-relative" style="background-color: #EDF8EA;">
                     <div
                         class="position-absolute position-absolute top-0 start-50 translate-middle rounded-circle bg-white  p-3">
@@ -66,16 +67,18 @@
         <div class="p-1">
             <div class="h1 fw-normal pt-5">10 Simple Ways To Manage Your Sugar <br> Craving,According To A Nutritionist
             </div>
-            <div class="py-3 fw-semibolder">
+            <div class="py-3 fw-bolder">
                 Five minutes of mindfulnoss and a dash of lemon juice can make all the difference </div>
         </div>
 
-        <div class="row g-3 food-grid align-items-center  py-5">
+        <div class="row g-4 food-grid align-items-center  py-5">
             <div class="col-md-4">
                 <div class="row">
-                    <img src="img/0101.jpeg" class="food-img2  " alt="">
+                    <a href="img/0101.jpeg" data-fancybox="gallery" data-caption="">
+                        <img src="img/0101.jpeg" class=" food-img2" alt="">
+                    </a>
                 </div>
-                <div class="row pt-3">
+                <div class="row pt-4">
                     <a href="img/0104.jpeg" data-fancybox="gallery" data-caption="">
                         <img src="img/0104.jpeg" class=" food-img2" alt="">
                     </a>
@@ -87,24 +90,24 @@
                         <img src="img/0102.jpeg" class="img-fluid food-img" alt="">
                     </a>
                 </div>
-                <div class="row pt-3">
+                <div class="row pt-4">
                     <a href="img/0104.jpeg" data-fancybox="gallery" data-caption="">
                         <img src="img/0104.jpeg" class="img-fluid food-img" alt="">
                     </a>
                 </div>
-                <div class="row pt-3">
+                <div class="row pt-4">
                     <a href="img/0106.jpeg" data-fancybox="gallery" data-caption="">
                         <img src="img/0106.jpeg" class="img-fluid food-img" alt="">
                     </a>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="row">
+                <div class="row ">
                     <a href="img/0103.jpeg" data-fancybox="gallery" data-caption="">
                         <img src="img/0103.jpeg" class=" food-img2" alt="">
                     </a>
                 </div>
-                <div class="row pt-3">
+                <div class="row pt-4">
                     <a href="img/0107.jpeg" data-fancybox="gallery" data-caption="">
                         <img src="img/0107.jpeg" class=" food-img2" alt="">
                     </a>
@@ -112,7 +115,7 @@
             </div>
         </div>
         <div class="text-center my-3 pb-4 ">
-            <button class="btn rounded-0   text-white py-1 px-3 small" style="background: #58BCBE;">read
+            <button class="btn rounded-0 text-white py-1 px-3 small" style="background: #58BCBE;">read
                 more</button>
         </div>
     </div>
@@ -122,7 +125,12 @@
         <script src="js/splide.min.js"></script>
         <script src="js/splide.min.js"></script>
         <script src="js/fancybox.umd.js"></script>
-
+        <script>
+            AOS.init({
+                once: false,
+                autoplay:true
+            });
+        </script>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 var splide = new Splide(".splide", {
