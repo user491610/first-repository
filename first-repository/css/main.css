@@ -13,6 +13,12 @@
     object-fit: cover;
     border-radius: 3px;
 }
+.splide_slide_img{
+    width: 100%;
+    height: 350px;
+    display: block;
+    object-fit: cover;
+}
 .food-img2{
     width: 100%;
     height: 400px;
